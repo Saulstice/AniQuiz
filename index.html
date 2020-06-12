@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniQuiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+     <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="#">ANIME QUIZ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/xsaul/" >Scores</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    
+
+      <!-- Question Display -->
+      <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6 Display">
+                <h2 id="question"></h2>
+                <pre>
+                    <button type="button" class="btn btn-dark option opA active"></button>
+                    <button type="button" class="btn btn-dark option opB active"></button>
+                    <button type="button" class="btn btn-dark option opC active"></button>
+                    <button type="button" class="btn btn-dark option opD active"></button>
+                </pre>
+
+
+
+            </div>
+
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
